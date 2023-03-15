@@ -7,13 +7,13 @@ The project is a web application that allows users to enter a string and see a r
 
 The purpose of this project is to provide a simple and intuitive way for users to see the unique characters in a given string and easily delete duplicates.
 
-#Technologies
+## Technologies
 This project was bootstrapped with Create React App.
 
-#Target Audience
+## Target Audience
 The target audience for this project is anyone who needs to quickly and easily remove duplicates from a string.
 
-#Features
+## Features
 Enter a string on the input page
 Display a set of cards on the show page, each representing a unique character in the string
 Cards have a delete icon that removes all other instances of the same character

@@ -16,7 +16,7 @@ The target audience for this project is anyone who needs to quickly and easily r
 ## Features
 Enter a string on the input page.\
 Display a set of cards on the show page, each representing a unique character in the string.\
-Cards have a delete icon that removes all other instances of the same character.\
+Cards have a delete icon that removes all other instances of the same character except the clicked one.\
 If there are no duplicates left, a "check" button is displayed.\
 Users can navigate back to the input page using a back button
 

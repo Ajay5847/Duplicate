@@ -14,10 +14,10 @@ This project was bootstrapped with Create React App.
 The target audience for this project is anyone who needs to quickly and easily remove duplicates from a string.
 
 ## Features
-Enter a string on the input page
-Display a set of cards on the show page, each representing a unique character in the string
-Cards have a delete icon that removes all other instances of the same character
-If there are no duplicates left, a "check" button is displayed
+Enter a string on the input page.\
+Display a set of cards on the show page, each representing a unique character in the string.\
+Cards have a delete icon that removes all other instances of the same character.\
+If there are no duplicates left, a "check" button is displayed.\
 Users can navigate back to the input page using a back button
 
 ### `npm start`

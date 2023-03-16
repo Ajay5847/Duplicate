@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import { Card } from "antd";
 import Showchar from "../Showchar/Showchar";
 import { nanoid } from "nanoid";
 import { BsFillArrowLeftSquareFill, BsCheckCircleFill } from "react-icons/bs";
 import "./Show.css";
 
 function Show() {
-
   const location = useLocation();
   const data = location.state.info;
   const navigate = useNavigate();
@@ -15,7 +15,7 @@ function Show() {
 
   const newData = Array.from(name);
   let cnt = 0;
-  
+
   //to apply same background color for same characters
 
   const colorMap = {};
@@ -26,7 +26,7 @@ function Show() {
     }
   }
 
-  //Go Back 
+  //Go Back
   function handleRoute() {
     navigate("/");
   }
@@ -72,8 +72,9 @@ function Show() {
           <BsFillArrowLeftSquareFill />
         </button>
         <div className="top">
-          <h1>Original String = {data}</h1>
-          <h1>Reformed String = {name}</h1>
+          <Card className="info" title={data} bordered={false}>
+            {name}
+          </Card>
         </div>
         {showSuccess && (
           <div className="icon success">

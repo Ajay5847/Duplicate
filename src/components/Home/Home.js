@@ -16,9 +16,9 @@ function Home() {
       }
     }
     if(cnt === name.length){
-      return alert("Enter a Valid String")
+      return alert("Enter a Valid String");
     }
-    navigate('/show', {state: {info: name}})
+    navigate('/show', {state: {info: name}});
  }
 
   return (
